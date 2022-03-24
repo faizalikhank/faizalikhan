@@ -1,0 +1,329 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+           <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive personal portfolio website design tutorial</title>
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!--bootstrap min cdn link-->
+   
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+	<style>
+		.img-responsive{
+			height: 390px !important;
+			width: 380px !important;
+		}
+	</style>
+</head>
+<body>
+
+<!-- custom cursors  -->
+<div class="cursor-1"></div>
+<div class="cursor-2"></div>
+
+
+<div id="menu-bars" class="fas fa-bars"></div>
+    
+	<!----header section starts------>
+	
+<header>
+	<a href="#" class="logo">Tosif<span> Khan</span></a>
+	
+	<nav class="navbar">
+		<a href="#home">Home</a>
+		<a href="#about">About</a>
+		<a href="#service">Education</a>
+	
+		<a href="#portfolio">Portfolio</a>
+		<a href="#contact">Contact</a>
+	</nav>
+	
+	<div class="follow">
+		<a href="https://www.facebook.com/faizali.khan.16547" class="fab fa-facebook"></a>
+		<a href="https://twitter.com/Faizali78409024?t=CtwrMBsVwCxVVjk3ytts7A&s=09" class="fab fa-twitter"></a>
+		<a href="https://www.instagram.com/accounts/login/" class="fab fa-instagram" target="__new"></a>
+		<a href="https://www.linkedin.com/in/faizali-khan-022403230
+" class="fab fa-linkedin"></a>
+		<a ></a>
+	</div>
+</header>
+
+	<!--header section Ends
+
+	home section starts-->
+
+<section class="home" id="home">
+
+	<div class="content">
+		<span class="hi">Hi ......</span>
+		<h3>I am<span> Tosif Khan </span></h3>
+		<p class="info">Welcome to My Profile....</p>
+		<p class="text">
+			
+	</div>
+	
+	<div class="image">
+		 <img src="images/cp4a.png" style="height: 400px;width:400px;border-radius:50%;border:2px solid black;" alt="">
+	</div>
+	
+</section>
+
+<!----home section end--->
+
+<!---About section starts-->
+
+<section class="about" id="about">
+	<h1 class="heading"> About <span> Me </span></h1>
+	
+	<div class="row">
+		<!--<div class="image">
+			<img src="cp3.jpg"/>
+		</div>-->
+		
+		<div class="content">
+			<h3 style="font-size:15px;">My self  Tosif Khan & I want to become a web developer.</h3>
+			<p style="font-size:15px;">
+				I live in ajmer.My birthday is on 1<sup>st</sup> june.I have completed 12th Senior Secondry from Mahatma Gandhi Sr.Sec.School.Now I am pursuing BCA-I<sup>st</sup>from Star Infotech College.
+			</p><br/>
+			
+			<div class="box-container" style="font-size:15px;">
+				<div class="box">
+					<p> <span> age : </span> 20 </p><br/>
+					<p> <span>Gender : </span> male </p><br/>
+					<p><span> Language : </span> hindi, inglish </p>
+				</div><br/>
+				<div class="box">
+					<p><span> DOB : </span> 01-06-2002</p><br/>
+					<p><span> Phone : </span> +91-8209081332 </p><br/>
+					<p><span> Email : </span> faizalik281@gamil.com</p><br/>
+					<p><span> Country : </span> India </p>
+				</div><br/>
+			</div>
+		</div>
+	</div>
+	<br/>
+	
+	<h1 class="heading"> <span> My </span> Skills </h1>
+	
+	<div class="row-2">
+		<div class="skills">
+			<div class="progress">
+				<h3> Web design <span> 85% </span> </h3>
+				<div class="bar"> <span></span> </div>
+			</div>
+			
+			<div class="progress">
+				<h3> Web dovelopment <span> 80% </span> </h3>
+				<div class="bar"> <span></span> </div>
+			</div>
+			
+			<div class="progress">
+				<h3> Mangement skills <span> 80% </span> </h3>
+				<div class="bar"> <span></span> </div>
+			</div>
+			
+			<div class="progress">
+				<h3> Problem solving <span> 80% </span> </h3>
+				<div class="bar"> <span></span> </div>
+			</div>
+			
+		</div>
+	</div>
+</section><br/>
+
+<!---About section end--->
+
+<!---service section starts-->
+
+	<section class="service" id="service">
+		
+		<h1 class="heading"> <span> My </span> Education </h1>
+		
+		<div class="box-container">
+			<div class="box">
+				<i class="fas fa-code"></i>
+				<h3>WEB DESIGN</h3>
+				<p style="text-align:justify;">
+					Kick off Projects, Loop in Team Members, & Create Powerful Resources Together. With Confluence, Bring Everything into One Place & Get Work Done Faster. Try for Free! Simple Sign Up. 1K Add Ons & Integrations. Connect to All your Tools. Build Versatile Pages. Ship Projects Faster.
+				</p>
+			</div>
+			
+			<div class="box">
+				<i class="fas fa-paint-brush"></i>
+				<h3>JAVA</h3>
+				<p style="font-size:15px; text-align:justify;">
+					Java Profiling is nothing but a simple process that helps the developers to analyze an application to pinpoint and identify performance or memory-related issues. A Profiler is a very simple yet useful code monitoring tool that helps professionals to handle all the development and testing cases in the application.
+				</p>
+			</div>
+			
+			<div class="box">
+				<i class="fas fa-mobile"></i>
+				<h3>SALESFORCE</h3>
+				<p style="font-size:15px; text-align:justify;">
+				Salesforce is an American cloud-based software company headquartered in San Francisco, California. It provides customer relationship management service and also provides enterprise applications focused on customer service, marketing automation, analytics, and application development.
+				</p>
+			</div>
+			
+			<!-- <div class="box"> -->
+				<!-- <i class="fas fa-bullhorn"></i> -->
+				<!-- <h3>C-language</h3> -->
+				<!-- <p style="font-size:15px; text-align:justify;"> -->
+					<!-- C is an imperative procedural language. It was designed to be compiled to provide low-level access to memory and language constructs that map efficiently to machine instructions, all with minimal runtime support. Despite its low-level capabilities, the language was designed to encourage cross-platform programming. -->
+
+
+				<!-- </p> -->
+			<!-- </div> -->
+
+			<!-- <div class="box">
+				<i class="fas fa-chart-line"></i>
+				<h3>digital marketing</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, facere?</p>
+			</div> -->
+<!-- 
+			<div class="box">
+				<i class="fas fa-envelope"></i>
+				<h3>email marketing</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, facere?</p>
+			</div>
+			 -->
+		</div>
+		
+	</section><br/>
+
+<!----service section end--->
+
+<!----experience section starts-->
+
+
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> contact <span> me </span> </h1>
+
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>my email</h3>
+            <p>faizalik281@gmail.com</p>
+   
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>my number</h3>
+            <p>+91 8209081332</p>
+     
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>my address</h3>
+            <p>Eidgha colony, vaishali nagar, Ajmer-305001 (Raj.)</p>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <form action="">
+
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="number" placeholder="number" class="box">
+
+            <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
+<!-- experience section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+<h1 class="heading"> Port <span> folio </span> </h1>
+   <div class="box-container">
+   		<div class="row">
+   			<div class="col-md-5 col-lg-5">
+   				 <img src="images/cp2.jpg" class="img-responsive">
+   			</div>
+   			<div class=" col-md-5 col-lg-5">
+   				 <img src="images/logo1.jfif" class="img-responsive">
+   			</div>
+   			<div class="col-md-5 col-lg-5">
+   				 <img src="images/c5.jpg" class="img-responsive">
+   			</div>
+   			<div class="col-md-5 col-lg-5">
+   				 <img src="images/cp.jpg" class="img-responsive">
+   			</div>
+   		</div>
+
+        
+
+        <!--<div class="box">
+            <img src="tk10.jpg" style="height:100% width:50%;" alt="">
+            <h3> photo 05 </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-l
+            <input type="submit" class="btn" value="send message">-->
+
+        </form>
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4fssssssssss13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1625069635379!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+
+    </div>
+
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+<footer class="footer"> Created by <span> mr. Tosif Khan </span> | all rights reserved! </footer>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- icon -->
+<a  href="https://www.instagram.com/accounts/login/"></a>
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
